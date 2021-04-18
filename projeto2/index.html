@@ -1,0 +1,31 @@
+<!-- ALUNO: MATHEUS EPITACIO BARROS DE LUCENA -->
+
+<html>
+<meta charset="utf-8" />
+<head>
+    <title>Projeto 2 de Processamento Gráfico</title>
+</head>
+
+<body>
+    <button id="new-curve"> Nova curva </button>
+    <button id="delete-curve"> Deletar curva atual </button>
+    <label for="curva">Escolha a curva</label>
+    <select name="escolhaCurvas" id="choose-curve" ></select>
+    <input type="number" id = "number-of-avaliations" value = "100" style="margin-left: 5px;"></input>
+    <input type="checkbox" checked id="points">Exibir pontos de controle</input>
+    <input type="checkbox" checked id="polygons">Exibir poligonais de controle</input>
+    <input type="checkbox" checked id="curves">Exibir curvas</input>
+    <select name="escolha" id="command" style="margin-bottom: 5px">
+        <option value="0">Adicionar pontos</option>
+        <option value="1">Mover pontos</option>
+        <option value="2">Remover pontos</option
+    </select>
+    <div style="margin-top: 5px">
+        <div class="canvas-container" id="canvas-container"></div>
+    </div>
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="p5.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
